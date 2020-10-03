@@ -1,0 +1,13 @@
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/bin/Debug/netcoreapp3.1/LanguageBasics
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/bin/Debug/netcoreapp3.1/LanguageBasics.deps.json
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/bin/Debug/netcoreapp3.1/LanguageBasics.runtimeconfig.json
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/bin/Debug/netcoreapp3.1/LanguageBasics.runtimeconfig.dev.json
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/bin/Debug/netcoreapp3.1/LanguageBasics.dll
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/bin/Debug/netcoreapp3.1/LanguageBasics.pdb
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/obj/Debug/netcoreapp3.1/LanguageBasics.csprojAssemblyReference.cache
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/obj/Debug/netcoreapp3.1/LanguageBasics.csproj.CoreCompileInputs.cache
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/obj/Debug/netcoreapp3.1/LanguageBasics.AssemblyInfoInputs.cache
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/obj/Debug/netcoreapp3.1/LanguageBasics.AssemblyInfo.cs
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/obj/Debug/netcoreapp3.1/LanguageBasics.dll
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/obj/Debug/netcoreapp3.1/LanguageBasics.pdb
+/home/leandro/repos/csharpbook/cap2/LanguageBasics/obj/Debug/netcoreapp3.1/LanguageBasics.genruntimeconfig.cache
