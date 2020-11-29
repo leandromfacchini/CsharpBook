@@ -3,8 +3,14 @@ using System.Text;
 
 namespace LanguageBasics
 {
-    class Program
+    internal static class Program
     {
+        static int x;
+
+        static string X = "Old Value";
+
+        static ref string GetX() => ref X;
+
         static void Main(string[] args)
         {
             // int x = 12 * 30;
@@ -91,13 +97,52 @@ namespace LanguageBasics
             // Console.WriteLine(x);
             // Console.WriteLine(y);
 
-            string a, b;
-            Split("Stevie Ray Vaughan", out a, out b);
-            Console.WriteLine(a);
-            Console.WriteLine(b);
+            // string a, b;
+            // Split("Stevie Ray Vaughan", out a, out b);
+            // Console.WriteLine(a);
+            // Console.WriteLine(b);
+
+            // FooOut(out x);
+
+            // int total = Sum(1, 2, 3, 4);
+            // int total = Sum(new int[] { 1, 2, 3, 4 });
+            // Console.WriteLine(total);
+
+            // OptionalParameters();
+            // OptionalParameters(11);
+
+            // OptionalParametersTwo();
+            // OptionalParametersTwo(1);
+            // OptionalParametersTwo(2, 3);
+
+            // int a = 0;
+            // NamedArguments(x: 10, y: 12);
+            // NamedArguments(y: ++a, x: --a);
+
+            // int[] numbers = new int[] { 0, 1, 2, 3, 4 };
+            // ref int numRef = ref numbers[2];
+            // Console.WriteLine(numRef);
+
+            // numRef *= 10;
+            // Console.WriteLine(numRef);
+            // Console.WriteLine(numbers[2]);
+
+            CreateTeste();
+
+            ref string xRef = ref GetX();
+            Console.WriteLine(xRef);
+            xRef = "New Value";
+            Console.WriteLine(xRef);
 
             Console.ReadKey();
 
+        }
+
+        private static void CreateTeste()
+        {
+            Random random = new Random();
+            var r = random.Next();
+            Console.WriteLine(r.ToString());
         }
 
         static int FeetToInches(int feet)
@@ -195,5 +240,38 @@ namespace LanguageBasics
             lastName = name.Substring(i + 1);
         }
 
+        static void FooOut(out int y)
+        {
+            Console.WriteLine(x);
+            y = 1;
+            Console.WriteLine(x);
+        }
+
+        static int Sum(params int[] ints)
+        {
+            int sum = 0;
+
+            for (int i = 0; i < ints.Length; i++)
+            {
+                sum += ints[i];
+            }
+
+            return sum;
+        }
+
+        static void OptionalParameters(int x = 23)
+        {
+            Console.WriteLine(x);
+        }
+
+        static void OptionalParametersTwo(int x = 0, int y = 0)
+        {
+            Console.WriteLine(x + " - " + y);
+        }
+
+        static void NamedArguments(int x, int y)
+        {
+            Console.WriteLine(x + " - " + y);
+        }
     }
 }
