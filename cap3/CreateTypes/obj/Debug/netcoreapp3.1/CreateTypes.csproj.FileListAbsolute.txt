@@ -1,0 +1,13 @@
+/home/leandro/repos/csharpbook/cap3/CreateTypes/bin/Debug/netcoreapp3.1/CreateTypes
+/home/leandro/repos/csharpbook/cap3/CreateTypes/bin/Debug/netcoreapp3.1/CreateTypes.deps.json
+/home/leandro/repos/csharpbook/cap3/CreateTypes/bin/Debug/netcoreapp3.1/CreateTypes.runtimeconfig.json
+/home/leandro/repos/csharpbook/cap3/CreateTypes/bin/Debug/netcoreapp3.1/CreateTypes.runtimeconfig.dev.json
+/home/leandro/repos/csharpbook/cap3/CreateTypes/bin/Debug/netcoreapp3.1/CreateTypes.dll
+/home/leandro/repos/csharpbook/cap3/CreateTypes/bin/Debug/netcoreapp3.1/CreateTypes.pdb
+/home/leandro/repos/csharpbook/cap3/CreateTypes/obj/Debug/netcoreapp3.1/CreateTypes.csprojAssemblyReference.cache
+/home/leandro/repos/csharpbook/cap3/CreateTypes/obj/Debug/netcoreapp3.1/CreateTypes.AssemblyInfoInputs.cache
+/home/leandro/repos/csharpbook/cap3/CreateTypes/obj/Debug/netcoreapp3.1/CreateTypes.AssemblyInfo.cs
+/home/leandro/repos/csharpbook/cap3/CreateTypes/obj/Debug/netcoreapp3.1/CreateTypes.csproj.CoreCompileInputs.cache
+/home/leandro/repos/csharpbook/cap3/CreateTypes/obj/Debug/netcoreapp3.1/CreateTypes.dll
+/home/leandro/repos/csharpbook/cap3/CreateTypes/obj/Debug/netcoreapp3.1/CreateTypes.pdb
+/home/leandro/repos/csharpbook/cap3/CreateTypes/obj/Debug/netcoreapp3.1/CreateTypes.genruntimeconfig.cache

@@ -127,15 +127,152 @@ namespace LanguageBasics
             // Console.WriteLine(numRef);
             // Console.WriteLine(numbers[2]);
 
-            CreateTeste();
+            // CreateTeste();
 
-            ref string xRef = ref GetX();
-            Console.WriteLine(xRef);
-            xRef = "New Value";
-            Console.WriteLine(xRef);
+            // Console.Write("Informe uma opção:");
+            // string option = Console.ReadLine();
+
+            // SwitchStatement(int.Parse(option));
+
+            // TellMeTheType(12);
+            // TellMeTheType("hello");
+            // TellMeTheType(true);
+
+            // AnotherSwitch();
+            // AnotherSwitch2();
+
+            // ref string xRef = ref GetX();
+            // Console.WriteLine(xRef);
+            // xRef = "New Value";
+            // Console.WriteLine(xRef);
+
+            // ExampleWhileOne();
+            // ExampleDoWhile();
+            // ExampleFor();
+            // ExampleWhile();
+            // ExampleForBreak();
+            decimal valor = ExampleReturnDecimal();
+            Console.WriteLine(valor);
 
             Console.ReadKey();
 
+        }
+
+        private static decimal ExampleReturnDecimal()
+        {
+            decimal p = 1000 * 100m;
+            return p;
+        }
+
+        private static void ExampleForBreak()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                if ((i % 2) == 0) continue;
+
+                Console.WriteLine($"{i} ");
+            }
+        }
+
+        private static void ExampleWhile()
+        {
+            int x = 0;
+            while (true)
+            {
+                if (x++ > 5) break;
+
+                Console.WriteLine($"Valor: {x}");
+            }
+        }
+
+        private static void ExampleFor()
+        {
+            for (int i = 0; i < 1000; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+        private static void ExampleDoWhile()
+        {
+            int i = 0;
+            do
+            {
+                Console.WriteLine(i);
+                i++;
+            } while (i < 100);
+        }
+
+        private static void ExampleWhileOne()
+        {
+            int i = 0;
+            while (i < 1000)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+        }
+
+        private static void AnotherSwitch2()
+        {
+            var x = 1000;
+
+            // switch (x)
+            // {
+            //     case float f when f > 1000;
+            //     case double d when d > 1000;
+            //     case decimal m when m > 1000;
+            //         Console.WriteLine("We can refer to x here but not f or d or m");
+            //         break;
+            // }
+        }
+
+        private static void AnotherSwitch()
+        {
+            var x = true;
+
+            switch (x)
+            {
+                case bool b when b == true:
+                    Console.WriteLine("True");
+                    break;
+                case bool b:
+                    Console.WriteLine("False");
+                    break;
+            }
+        }
+
+        private static void TellMeTheType(object x)
+        {
+            switch (x)
+            {
+                case int i:
+                    Console.WriteLine("it's an int");
+                    Console.WriteLine($"The square of {i} is {i * i}");
+                    break;
+                case string s:
+                    Console.WriteLine("It's a string");
+                    Console.WriteLine($"The length of {s} is {s.Length}");
+                    break;
+                default:
+                    Console.WriteLine("I don't know what x is");
+                    break;
+            }
+        }
+
+        private static void SwitchStatement(int option)
+        {
+            switch (option)
+            {
+                case 13:
+                case 12:
+                case 11:
+                    Console.WriteLine("Face card");
+                    break;
+                default:
+                    Console.WriteLine("Plain card");
+                    break;
+            }
         }
 
         private static void CreateTeste()
