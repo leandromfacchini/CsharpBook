@@ -8,21 +8,17 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/home/leandro/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/home/leandro/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/leandro/repos/csharpbook/cap3/CreateTypes/CreateTypes.csproj",
+      "projectUniqueName": "/home/leandro/repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj",
       "projectName": "CreateTypes",
-      "projectPath": "/home/leandro/repos/csharpbook/cap3/CreateTypes/CreateTypes.csproj",
+      "projectPath": "/home/leandro/repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj",
       "packagesPath": "/home/leandro/.nuget/packages/",
-      "outputPath": "/home/leandro/repos/csharpbook/cap3/CreateTypes/obj/",
+      "outputPath": "/home/leandro/repos/github/CsharpBook/cap3/CreateTypes/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "/home/leandro/.nuget/NuGet/NuGet.Config"
       ],
@@ -62,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }

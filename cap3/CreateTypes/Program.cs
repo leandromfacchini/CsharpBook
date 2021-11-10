@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using CreateTypes.Classes;
 
 namespace CreateTypes
 {
@@ -8,13 +9,15 @@ namespace CreateTypes
     {
         static async Task Main(string[] args)
         {
-            TestIndex();
-            SwitchExpressions();
+            //TestIndex();
+            // SwitchExpressions();
             // TuplePatterns();
             // NullableEnable();
 
             await foreach (var number in RangeAsync(0, 10, 100))
                 Console.WriteLine(number);
+
+            RectangleTest();
 
 
             Console.ReadKey();
@@ -85,5 +88,13 @@ namespace CreateTypes
             Console.WriteLine(lastTwo);
             Console.WriteLine(firstTwo2);
         }
+
+        public static void RectangleTest()
+        {
+            var rectangle = new Rectangle(3, 4);
+            (float width, float heigth) = rectangle;
+            Console.WriteLine(width + " - " + heigth);
+        }
+
     }
 }
