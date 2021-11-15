@@ -14,12 +14,13 @@ namespace CreateTypes
             // TuplePatterns();
             // NullableEnable();
 
-            await foreach (var number in RangeAsync(0, 10, 100))
-                Console.WriteLine(number);
+            // await foreach (var number in RangeAsync(0, 10, 100))
+            //     Console.WriteLine(number);
 
-            RectangleTest();
+            // RectangleTest();
 
-
+            FooTest();
+            
             Console.ReadKey();
         }
 
@@ -96,5 +97,19 @@ namespace CreateTypes
             Console.WriteLine(width + " - " + heigth);
         }
 
+        public static void BunnyTest()
+        {
+            Bunny b1 = new Bunny { Name = "Bo", LikeCarrots = true, LikeHumans = false };
+            Bunny b2 = new Bunny("Bo") { LikeCarrots = true, LikeHumans = false };
+            Bunny b3 = new Bunny(name: "Bo", likeCarrots: false);
+        }
+
+        public static void FooTest()
+        {
+            Foo foo = new Foo();
+            foo.X = 10;
+
+            Console.WriteLine($"Value: {foo.X}");
+        }
     }
 }
