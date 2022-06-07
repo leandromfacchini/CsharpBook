@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/leandro/repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj": {}
+    "/home/leandro/Repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj": {}
   },
   "projects": {
-    "/home/leandro/repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj": {
+    "/home/leandro/Repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leandro/repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj",
+        "projectUniqueName": "/home/leandro/Repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj",
         "projectName": "CreateTypes",
-        "projectPath": "/home/leandro/repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj",
+        "projectPath": "/home/leandro/Repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj",
         "packagesPath": "/home/leandro/.nuget/packages/",
-        "outputPath": "/home/leandro/repos/github/CsharpBook/cap3/CreateTypes/obj/",
+        "outputPath": "/home/leandro/Repos/github/CsharpBook/cap3/CreateTypes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/leandro/.nuget/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,18 +2,18 @@ namespace CreateTypes.Classes
 {
     public class Rectangle
     {
-        public readonly float Width, Height;
+        public readonly float Width, Heigth;
 
-        public Rectangle(float width, float height)
+        public Rectangle(float width, float heigth)
         {
             Width = width;
-            Height = height;
+            Heigth = heigth;
         }
 
-        public void Deconstruct(out float width, out float height)
+        public void Deconstruct(out float width, out float heigth)
         {
             width = Width;
-            height = Height;
+            heigth = Heigth;
         }
     }
 }

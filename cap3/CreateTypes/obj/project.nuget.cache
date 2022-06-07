@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MfdQVzjwmWiadMSvYpRAaOHlgsvP0JQJQRKBhDHUtRlylwBpWmGX4JrI/DBDLMv0G6xCaTSjRao7D34uox5Inw==",
+  "dgSpecHash": "Gl0ClBJjO0eezHAG++US7W058HMWWIFfx534AXPCS7SdsDZvLu5FwGOQ4bmOhgRV1HFA3WQ44A07pURbve/jRg==",
   "success": true,
-  "projectFilePath": "/home/leandro/repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj",
+  "projectFilePath": "/home/leandro/Repos/github/CsharpBook/cap3/CreateTypes/CreateTypes.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

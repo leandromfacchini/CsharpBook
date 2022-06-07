@@ -32,9 +32,8 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/CreateTypes/CreateTypes.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "--project",
+                "${workspaceFolder}/CreateTypes/CreateTypes.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

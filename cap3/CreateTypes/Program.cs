@@ -5,7 +5,7 @@ using CreateTypes.Classes;
 
 namespace CreateTypes
 {
-    class Program
+    static class Program
     {
         static async Task Main(string[] args)
         {
@@ -19,9 +19,17 @@ namespace CreateTypes
 
             // RectangleTest();
 
-            FooTest();
-            
-            Console.ReadKey();
+            // FooTest();
+
+            // WriteCubes();
+
+            // Panda panda = new Panda("Poo");
+
+            var rectangle = new Rectangle(3, 4);
+            (float width, float heigth) = rectangle;
+            System.Console.WriteLine(width + " " + heigth);
+
+            Console.WriteLine();
         }
 
         static async IAsyncEnumerable<int> RangeAsync(int start, int count, int delay)
@@ -110,6 +118,15 @@ namespace CreateTypes
             foo.X = 10;
 
             Console.WriteLine($"Value: {foo.X}");
+        }
+
+        public static void WriteCubes()
+        {
+            System.Console.WriteLine(Cube(3));
+            System.Console.WriteLine(Cube(4));
+            System.Console.WriteLine(Cube(5));
+
+            int Cube(int value) => value * value * value;
         }
     }
 }
